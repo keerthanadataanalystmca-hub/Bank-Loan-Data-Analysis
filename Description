@@ -1,0 +1,72 @@
+This is a detailed and well-structured project description that you can use for your GitHub repository's README.md file.
+
+🏦 Bank Loan Data Analysis Mini Project: Assessing Risk and Portfolio Health
+This project is a hands-on Data Analysis mini-project focused on exploring and analyzing a Bank Loan dataset. The primary objective is to perform an in-depth exploratory data analysis (EDA), calculate crucial Key Performance Indicators (KPIs), and create a series of visualizations to help a financial institution assess lending risk, understand borrower profiles, and monitor the overall health of its loan portfolio.
+
+✨ Key Features and Analysis
+The analysis is driven by a comprehensive Business Requirements Document (BRD) and focuses on two major areas: portfolio performance metrics and detailed risk segmentation.
+
+1. Core Key Performance Indicators (KPIs)
+The project calculates and tracks essential metrics for a snapshot of the lending activity:
+
+Total Loan Applications: The absolute count of all loan requests.
+
+Total Funded Amount: The total capital disbursed as loans.
+
+Total Amount Received: The total amount collected back from borrowers (principal + interest).
+
+Average Interest Rate: The portfolio's average cost of borrowing.
+
+Average Debt-to-Income (DTI) Ratio: A critical measure of the average financial health of the borrowers.
+
+2. Good Loan vs. Bad Loan Segmentation
+A core part of the analysis involves segmenting the loans to identify risk:
+
+Category	Description (Likely loan_status)	Metrics Calculated
+Good Loan	Loans that are 'Fully Paid' or 'Current'.	Application Count, Funded Amount, Total Received Amount, Percentage of Total Applications.
+Bad Loan	Loans that are 'Charged Off' (Defaulted).	Application Count, Funded Amount, Total Received Amount, Percentage of Total Applications.
+
+Export to Sheets
+3. Comprehensive Visual Trend Analysis
+The project includes a suite of charts to visualize lending patterns across various dimensions:
+
+Visualization	Purpose
+Monthly Trends	Identifying seasonality and long-term changes in loan issuance and repayment.
+Regional Analysis by State	Pinpointing key lending geographies and regional disparities in loan performance.
+Loan Term Analysis	Understanding the distribution of loans across 36-month and 60-month terms.
+Employee Length Analysis	Assessing the impact of a borrower's employment history on lending metrics.
+Loan Purpose Breakdown	Visualizing how metrics are distributed across various loan reasons (e.g., debt consolidation, house, car).
+Home Ownership Analysis	Hierarchical view (e.g., Tree Map) showing how home ownership status (RENT, MORTGAGE, OWN) correlates with loan metrics.
+
+Export to Sheets
+🛠️ Technologies Used
+Python (The primary language for the project)
+
+Pandas (Data cleaning, manipulation, and analysis)
+
+Numpy (Numerical operations)
+
+Plotly Express (For creating interactive and engaging visualizations)
+
+Jupyter Notebook (The environment for the analysis)
+
+📂 Repository Contents
+File Name	Description
+BANK LOAN PROJECT.ipynb	The main Jupyter notebook containing the full data loading, cleaning, KPI calculation, and visualization code.
+financial_loan.xlsx - financial_loan.csv	The raw loan data used for the analysis.
+Problem Statement.pptx	The original Business Requirements Document (BRD) outlining the project's objectives, required KPIs, and desired charts.
+
+Export to Sheets
+🚀 Getting Started
+Clone the repository:
+
+Bash
+
+git clone [Your Repository URL]
+Install the necessary Python libraries:
+
+Bash
+
+pip install pandas numpy plotly jupyter
+Run the analysis:
+Open the BANK LOAN PROJECT.ipynb notebook in a Jupyter environment and execute the cells sequentially to reproduce the analysis and view the insights.
